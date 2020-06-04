@@ -2,16 +2,16 @@ class Api::V1::CategoriesController < ApplicationController
 
 
     def index 
-        @categories = Category.all 
-        render json: @categories 
+        categories = Category.all 
+        render json: CategorySerializer.new(categories) 
     end 
 
     def new 
-        @category = Category.new 
+        category = Category.new 
     end 
 
     def create 
-        @category = Category.create(category_params)
+        category = Category.create(category_params)
           if category.save 
             render json: category, status: :accepted 
           else 
