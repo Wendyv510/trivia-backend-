@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
     namespace :api do 
-        namespace :vl do 
+        namespace :v1 do 
             resources :categories 
             resources :questions 
         end 
