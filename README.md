@@ -1,4 +1,4 @@
-# Trivia 
+# Trivia - Backend 
 
 
 
@@ -7,7 +7,8 @@ Installation: To use the Trivia app, in terminal ...
 -cd trivia-backend- 
  -bundle install 
  -rake db:migrate 
- -thin start --ssl and open https://localhost:3000 in browser
+ -thin start --ssl
+ -open https://localhost:3000/api/v1/categories in browser to be able to view category json data & https://localhost:3000/api/v1/questions to view questions json data 
 
 Description: The Trivia app is for users to select a category and answer questions about a certain topic. 
 
