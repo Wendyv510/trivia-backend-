@@ -7,6 +7,7 @@ Installation: To use the Trivia app, in terminal ...
 -cd trivia-backend- 
  -bundle install 
  -rake db:migrate 
+ -rake db:seed 
  -thin start --ssl
  -open https://localhost:3000/api/v1/categories in browser to be able to view category json data & https://localhost:3000/api/v1/questions to view questions json data 
 
