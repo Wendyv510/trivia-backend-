@@ -21,10 +21,12 @@ ActiveRecord::Schema.define(version: 2020_06_03_173346) do
   create_table "questions", force: :cascade do |t|
     t.string "description"
     t.string "answer"
-    t.integer "category_id"
+    t.string "option"
+    t.integer "category_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["category_id"], name: "index_questions_on_category_id"
   end
 
+  add_foreign_key "questions", "categories"
 end
