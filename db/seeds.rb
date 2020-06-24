@@ -6,7 +6,20 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 Category.destroy_all 
-Question.destroy_all 
+Question.destroy_all
+User.destroy_all 
+
+User.create(username: "lila123", score: 8)
+User.create(username: "phil9876", score: 5)
+User.create(username: "songbir45d", score: 7)
+User.create(username: "rainbow36", score: 8)
+User.create(username: "sarah0", score: 9)
+User.create(username: "bigone999", score: 7)
+User.create(username: "ziggy87", score: 10)
+User.create(username: "starlight11", score: 8)
+User.create(username: "pj1886", score: 7)
+User.create(username: "stella87", score: 8)
+
 
 boardGames = Category.create(name: "Board Games") 
 movies = Category.create(name: "Movies") 
