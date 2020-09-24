@@ -17,4 +17,4 @@ Contributing Bug reports and pull requests are welcome on GitHub at https://gith
 
 License The gem is available as open source under the terms of the MIT License. https://github.com/Wendyv510/trivia-backend-/blob/master/LICENSE
 
-Code of Conduct Everyone interacting in the EricCarleBooks project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the code of conduct.
+Code of Conduct Everyone interacting in the Trivia project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the code of conduct.
