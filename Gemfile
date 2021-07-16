@@ -43,3 +43,4 @@ gem 'thin'
 gem 'fast_jsonapi' 
 
 gem 'webpacker', '~> 3.5'
+

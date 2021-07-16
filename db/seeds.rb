@@ -23,6 +23,7 @@ User.create(username: "stella87", score: 8)
 
 boardGames = Category.create(name: "Board Games") 
 movies = Category.create(name: "Movies") 
+animals = Category.create(name: "Animals") 
 
 
 Question.create(description: "This game involves black-and-white discs and a green grid for a board.", answer: "Othello", option: "Scrabble", category_id: boardGames.id)
@@ -38,3 +39,8 @@ Question.create(description: "What was the name of the boat in Jaws?", answer: "
 Question.create(description: "What animal was framed in the unfinished paint-by-number in Rizzo’s room in Grease?", answer: "A horse", option: "A dog", category_id: movies.id) 
 
 
+Question.create(description: "Which marine mammal is the heaviest member of the weasel family?", answer: "Sea Otter", option: "Badger", category_id: animals.id) 
+Question.create(description: "What is the largest species of shark currently living in the ocean?", answer: "Whale Shark", category_id: animals.id)
+Question.create(description: "Gigantopithecus blacki is an extinct species of what animal?", answer: "Ape", option: "Rhinoceros", category_id: animals.id)
+Question.create(description: "'Dazzle' is a term used for a group of what type on animal?", answer: "Zebra", option: "Rainbow trout", category_id: animals.id) 
+Question.create(description: "What semi-aquatic, egg laying mamal, is native to Australia and Tasmania?", answer: "Platypus", option: "Echidna", category_id: animals.id)
