@@ -24,7 +24,7 @@ User.create(username: "stella87", score: 8)
 boardGames = Category.create(name: "Board Games") 
 movies = Category.create(name: "Movies") 
 animals = Category.create(name: "Animals") 
-books = Category.create(book: "Books") 
+books = Category.create(name: "Books") 
 
 
 Question.create(description: "This game involves black-and-white discs and a green grid for a board.", answer: "Othello", option: "Scrabble", category_id: boardGames.id)
