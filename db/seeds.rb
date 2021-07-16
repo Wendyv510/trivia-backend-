@@ -24,6 +24,7 @@ User.create(username: "stella87", score: 8)
 boardGames = Category.create(name: "Board Games") 
 movies = Category.create(name: "Movies") 
 animals = Category.create(name: "Animals") 
+books = Category.create(book: "Books") 
 
 
 Question.create(description: "This game involves black-and-white discs and a green grid for a board.", answer: "Othello", option: "Scrabble", category_id: boardGames.id)
@@ -40,7 +41,13 @@ Question.create(description: "What animal was framed in the unfinished paint-by-
 
 
 Question.create(description: "Which marine mammal is the heaviest member of the weasel family?", answer: "Sea Otter", option: "Badger", category_id: animals.id) 
-Question.create(description: "What is the largest species of shark currently living in the ocean?", answer: "Whale Shark", category_id: animals.id)
+Question.create(description: "What is the largest species of shark currently living in the ocean?", answer: "Whale Shark", option: "Great White Shark", category_id: animals.id)
 Question.create(description: "Gigantopithecus blacki is an extinct species of what animal?", answer: "Ape", option: "Rhinoceros", category_id: animals.id)
 Question.create(description: "'Dazzle' is a term used for a group of what type on animal?", answer: "Zebra", option: "Rainbow trout", category_id: animals.id) 
 Question.create(description: "What semi-aquatic, egg laying mamal, is native to Australia and Tasmania?", answer: "Platypus", option: "Echidna", category_id: animals.id)
+
+Question.create(description: "Who wrote the novel 'Moby Dick'?", answer: "Herman Melville", option:"Robert Ervin Howard", category_id: books.id)
+Question.create(description: "How many books are in the Chronicles of Narnia series?", answer: "7", option: "10", category_id: books.id)
+Question.create(description: "What was the name of Captain Nemo's submarine in '20,000 Leagues Under the Sea'?", answer: "The Nautilus", option: "The Nina", category_id: books.id) 
+Question.create(description: "In the Lord of The Rings, who is the father of the dwarf Gimli?", answer: "Gloin", option: "Boromir", category_id: books.id)
+Question.create(description: "In which classic novel is there a character named Homer Simpson?", answer: "The Day of the Locust", option: "The Simpsons", category_id: books.id)
