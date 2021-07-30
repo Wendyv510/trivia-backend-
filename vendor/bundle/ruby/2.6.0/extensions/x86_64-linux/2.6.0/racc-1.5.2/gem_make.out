@@ -1,18 +1,18 @@
 current directory: /mnt/c/Users/wendy/trivia-backend-/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
-/home/wendyv510/.rbenv/versions/2.6.1/bin/ruby -I /home/wendyv510/.rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20210726-3502-1qhn8aj.rb extconf.rb
+/home/wendyv510/.rbenv/versions/2.6.1/bin/ruby -I /home/wendyv510/.rbenv/versions/2.6.1/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210730-3297-192zn5p.rb extconf.rb
 checking for rb_ary_subseq()... yes
 creating Makefile
 
 current directory: /mnt/c/Users/wendy/trivia-backend-/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
-make "DESTDIR=" clean
+make DESTDIR\= clean
 
 current directory: /mnt/c/Users/wendy/trivia-backend-/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
-make "DESTDIR="
+make DESTDIR\=
 compiling cparse.c
 linking shared-object racc/cparse.so
 
 current directory: /mnt/c/Users/wendy/trivia-backend-/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
-make "DESTDIR=" install
-/usr/bin/install -c -m 0755 cparse.so ./.gem.20210726-3502-reh957/racc
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20210730-3297-1vjtnkt/racc
 
-Permission denied @ rb_file_s_rename - (./.gem.20210726-3502-reh957/racc, /mnt/c/Users/wendy/trivia-backend-/vendor/bundle/ruby/2.6.0/extensions/x86_64-linux/2.6.0/racc-1.5.2/racc)
+Permission denied @ rb_file_s_rename - (/mnt/c/Users/wendy/trivia-backend-/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse/./.gem.20210730-3297-1vjtnkt/racc, /mnt/c/Users/wendy/trivia-backend-/vendor/bundle/ruby/2.6.0/extensions/x86_64-linux/2.6.0/racc-1.5.2/racc)
