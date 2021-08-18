@@ -1,0 +1,24 @@
+current directory: /mnt/c/Users/wendy/trivia-backend-/vendor/bundle/ruby/2.6.0/gems/thin-1.8.1/ext/thin_parser
+/home/wendyv510/.rbenv/versions/2.6.1/bin/ruby -I /home/wendyv510/.rbenv/versions/2.6.1/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210818-2164-a7jigq.rb extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+current directory: /mnt/c/Users/wendy/trivia-backend-/vendor/bundle/ruby/2.6.0/gems/thin-1.8.1/ext/thin_parser
+make DESTDIR\= clean
+
+current directory: /mnt/c/Users/wendy/trivia-backend-/vendor/bundle/ruby/2.6.0/gems/thin-1.8.1/ext/thin_parser
+make DESTDIR\=
+compiling parser.c
+parser.c:31:18: warning: ‘http_parser_en_main’ defined but not used [-Wunused-const-variable=]
+ static const int http_parser_en_main = 1;
+                  ^~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-cast-function-type’
+compiling thin.c
+linking shared-object thin_parser.so
+
+current directory: /mnt/c/Users/wendy/trivia-backend-/vendor/bundle/ruby/2.6.0/gems/thin-1.8.1/ext/thin_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 thin_parser.so ./.gem.20210818-2164-17gg6zd

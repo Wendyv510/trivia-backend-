@@ -1,6 +1,6 @@
 # Trivia - Backend 
 
-
+Deployed with Netlify @ https://jovial-bhaskara-fcf42e.netlify.app
 
 Installation: To use the Trivia app, in terminal ... 
 -git clone https://github.com/Wendyv510/trivia-backend-.git 
